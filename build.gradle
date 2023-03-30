@@ -12,5 +12,6 @@ version = '1.0.0'
 
 dependencies {
     shade "com.unrealdinnerbone:JavalinUtils:1.0.0+build.5"
+    shade "com.unrealdinnerbone:UnRealLib:7.0.0+build.149"
 }
 

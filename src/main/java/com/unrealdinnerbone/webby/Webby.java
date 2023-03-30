@@ -18,7 +18,7 @@ import java.util.List;
 
 public class Webby {
     private static final Logger LOGGER = LogHelper.getLogger();
-    
+
     public static void main(String[] args) {
         ConfigManager configManager = ConfigManager.createSimpleEnvPropertyConfigManger();
         Config config = configManager.loadConfig("config", Config::new);
